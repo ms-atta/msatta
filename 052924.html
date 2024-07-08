@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiiT 29|05|24</title>
+    <style>
+        button{
+            background-color:Brown;
+            color: wheat;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px;
+            margin-bottom: 10px;
+            margin-left: 200px;
+        }
+        form{
+            background-color:wheat;
+            padding: 8px;
+            border-color:brown;
+            color:brown;
+            border-radius: 20px;
+            justify-content: center;
+            margin-right:300px;
+            margin-left:300px;
+        }
+        div{
+            margin-top: 4%;
+        }
+        .Submit{
+            background-color: Brown;
+            color: wheat;
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px;
+        }
+        .submit{
+            display: grid;
+            justify-content: center;
+        }
+        #states{
+            border-radius: 5px;
+            border: 2px;
+            margin-top: 10px;
+            padding: 4px;
+        }
+        #username{
+            border-radius: 5px;
+            border: 2px;
+        }
+        #email{
+            border-radius: 5px;
+            border: 2px;
+        }
+        #password{
+            border-radius: 5px;
+            border: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <button onclick="greetings()">Welcome..</button>
+<form onsubmit="validateData()">
+<div>
+   <label for="">Username</label>
+   <input type="text" id="username">
+</div>
+<div>
+    <label for="">Email</label>
+    <input type="email" id="email">
+</div>
+<div>
+    <label for="">Password</label>
+    <input type="password" id="password">
+</div>
+<div>
+<label for="">States</label>
+<select id="states">
+    <option>Select</option>
+    <option>Lagos</option>
+    <option>Abuja</option>
+    <option>Kano</option>
+    <option>Kaduna</option>
+    <option>Jalingo</option>
+</select>
+</div>
+<div class="submit">
+    <input class="Submit" type="submit" value="submit Data" id="Submit">
+</div>
+</form>
+    <script src="052924.js"></script>
+</body>
+</html>

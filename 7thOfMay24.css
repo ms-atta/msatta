@@ -1,0 +1,63 @@
+.dotted{
+border: 2px dotted yellow;
+margin:30px 20px 20px 20px;
+padding: 30px 20px 20px 20px;
+background-color: blue;
+width: 200px;
+height: 200px;
+/*display: none;*/
+/*visibility: hidden;*/
+position: relative;
+right: 5px;
+}
+.dashed{
+border-style: dashed;
+border-color: red;
+border-width: 2px;
+border-radius: 20px;
+}
+.solid{
+border-style: solid;
+border-color: yellow;
+border-width: 2px;
+border-radius: 20px;
+}
+.double{
+border-style: double;
+border-color: blue;
+border-width: 2px;
+border-radius: 20px;
+}
+.mixed{
+border-style: dashed dotted solid double;
+border-color: brown;
+border-width: 2px;
+border-radius: 20px;
+}
+#right{
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 10px 10px bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+#center{
+    text-align: center;
+    text-transform: capitalize;
+}
+#left{
+    text-align: left;
+    text-transform: lowercase;
+}
+a{
+    color: Purple;
+}
+a:active{
+    color: blueviolet;
+}
+.Manufacturers{
+    list-style-type: upper-roman;
+}
+.CarModels{
+    list-style-type: lower-alpha;
+}

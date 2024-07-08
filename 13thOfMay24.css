@@ -1,0 +1,34 @@
+.class1 .first{
+    font-size: 38px;
+}
+.second >p{
+    font-size:50px;
+}
+.class1 +div{
+    width: 40%;
+    height: 40%;
+}
+.first p, .second p, .third p{
+    color: brown;
+}
+#myid ~ div{
+    background-color:blue;
+    width:  70px;
+    height: 50px;
+}
+a:hover{
+background-color: black;
+font-size: 50px;
+}
+#myidname::before{
+    content:"Before";
+}
+#myidname::after{
+    content:"After";
+}
+#myidname::first-letter{
+    color: brown;
+}
+#myidname::first-line{
+    color: wheat;
+}

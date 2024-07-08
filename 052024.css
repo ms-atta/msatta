@@ -1,0 +1,25 @@
+.ParentGridElement{
+    display: grid;
+    grid-template-columns: 200px 200px 400px 200px;
+    grid-template-rows: 200px 200px 800px 200px ;
+    gap: 10px;
+}
+.Box{
+    background-color:wheat;
+    border: 3px solid brown;
+}
+@media only screen and (min-width: 300px) {
+    body{ background-color:rgb(228, 168, 55);}
+
+    img{
+        height: 150px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body{background-color: brown;}
+}
+img{
+    height: 300px;
+    width: 100px;
+}

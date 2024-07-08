@@ -1,0 +1,26 @@
+.div1{
+    width: 100x;
+    height: 50x;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    z-index: 2;
+}
+.div2{
+    background: green;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -60px;
+    left: 40px;
+    z-index: 2;
+}
+.div3{
+    background: blue;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: -120px;
+    left: 120px;
+    z-index: 2;
+}
